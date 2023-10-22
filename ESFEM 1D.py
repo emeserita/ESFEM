@@ -1,3 +1,9 @@
+"""
+The code solves the one-dimensional advection diffusion equation u_t + v * u_s = D u_{ss} for time t in [0,T] on the spatial domain [0, 1 + Vel*t]
+where Vel is the velocity of the deforming interval.
+"""
+
+
 import numpy as np
 import scipy.sparse as sp
 import scipy.sparse.linalg as splinalg
