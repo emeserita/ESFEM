@@ -1,6 +1,7 @@
 """
 The code solves the one-dimensional advection diffusion equation u_t + v * u_s = D u_{ss} for time t in [0,T] on the spatial domain [0, 1 + Vel*t]
 where Vel is the velocity of the deforming interval.
+The code solves the problem after the change of variables: x = s / (1 + Vel*t).
 """
 
 
